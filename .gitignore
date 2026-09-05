@@ -1,0 +1,24 @@
+# == AGENTS.md & project docs (wajib per AGENTS.md) ==
+AGENTS.md
+project_docs/
+
+# == Git worktrees (kandang kerja) ==
+.worktrees/
+
+# == Rust build artifacts ==
+/target
+
+# == Engine data artifacts saat test lokal ==
+*.sst
+*.wal
+*.MANIFEST
+
+# == OS ==
+.DS_Store
+
+# == Python ==
+__pycache__/
+*.pyc
+
+# == Local AI-tool config (bukan untuk repo publik) ==
+.codeignore
